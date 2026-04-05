@@ -3,38 +3,22 @@
 Thumbs.db
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
-*~
+
+# OpenViking data (vector index, don't commit)
+openviking/
+open_viking/
+
+# Memory files (personal data)
+memory/
+MEMORY.md
+
+# Config with secrets
+.env
+*.key
 
 # Logs
 *.log
-
-# Temporary files
-*.tmp
-*.bak
-
-# Memory data (workspace-specific, should not be committed)
-memory/
-MEMORY.md
-WEEKLY-PROGRESS.md
-.consolidate-lock
-.surfaces.json
-
-# Session data
-sessions/
-*.jsonl
-
-# OpenViking local data
-.vikingdb/
-ov.conf
-
-# Environment
-.env
-.env.local
-
-# Node (if any tooling added later)
-node_modules/
-package-lock.json
