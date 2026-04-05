@@ -45,4 +45,4 @@ dream-memory/
 
 ## 许可证
 
-内部项目，仅供团队使用。
+MIT License — 详见 [LICENSE](LICENSE) 文件。
