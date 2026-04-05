@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Memory data (workspace-specific, should not be committed)
+memory/
+MEMORY.md
+WEEKLY-PROGRESS.md
+.consolidate-lock
+.surfaces.json
+
+# Session data
+sessions/
+*.jsonl
+
+# OpenViking local data
+.vikingdb/
+ov.conf
+
+# Environment
+.env
+.env.local
+
+# Node (if any tooling added later)
+node_modules/
+package-lock.json
